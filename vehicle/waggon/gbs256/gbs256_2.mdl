@@ -1,0 +1,637 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.570000171661376953125, 1.3761899471282958984375, 4.088369846343994140625, },
+			bbMin = { -6.570000171661376953125, -1.3761899471282958984375, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.570000171661376953125, 1.3761899471282958984375, 2.0441849231719970703125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.0441849231719970703125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rumpf_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_l_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_r_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/db_neu_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_front1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13000011444091796875, -0.933000028133392333984375, 1.37999999523162841796875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_front2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13000011444091796875, 0.933000028133392333984375, 1.37999999523162841796875, 1, },
+								},
+							},
+							name = "zugschluss_de_front_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							children = {
+								{
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_back1",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13000011444091796875, -0.933000028133392333984375, 1.37999999523162841796875, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_de_back2",
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13000011444091796875, 0.933000028133392333984375, 1.37999999523162841796875, 1, },
+								},
+							},
+							name = "zugschluss_de_back_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rumpf_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_l_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_r_lod1.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/db_neu_lod0.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rumpf_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/rad_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_left = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_left = { 
+									params = { 
+										id = "ani/tuer_l.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_l_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								close_all_doors = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								close_doors_right = { 
+									forward = false,
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_all_doors = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+								open_doors_right = { 
+									params = { 
+										id = "ani/tuer_r.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/rumpf.mtl", },
+							mesh = "msh/tuer_r_lod2.msh",
+							name = "rumpf",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 1200,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1994,
+				yearTo = 1999,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("gbs256_2_desc"),
+				name = _("gbs256_2_name"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 27.7777690887451171875,
+				weightEmpty = 12800,
+				weightMaxPayload = 0,
+			},
+			loadIndicator = { 
+				configs = { 
+					bay_0 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 13, 4, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_1 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 13, 4, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_2 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 13, 4, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_3 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 13, 4, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_4 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 11, 3, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_5 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 11, 3, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+					bay_6 = { 
+						cargoBay = { 
+							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
+							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							cargoFormats = { "SMALL", },
+							childId = "rumpf",
+							gridSize = { 13, 4, 1, },
+							sizePolicy = "STRETCH_HEIGHT_SCALEY",
+							type = "DISCRETE",
+						},
+					},
+				},
+				slots = { },
+			},
+			maintenance = { 
+				lifespan = 14610,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "rumpf", },
+					fakeBogies = { },
+				},
+			},
+			extent = { 
+				bbMax = { 6.570000171661376953125, 1.3761899471282958984375, 4.088369846343994140625, },
+				bbMin = { -6.570000171661376953125, -1.3761899471282958984375, 0, },
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_leicht.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+									},
+									loadIndicator = "bay_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
+									},
+									loadIndicator = "bay_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
+									},
+									loadIndicator = "bay_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
+									},
+									loadIndicator = "bay_3",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
+									},
+									loadIndicator = "bay_4",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+									},
+									loadIndicator = "bay_5",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "bay_6",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_gbs256.mdl",
+				loadSpeed = 2,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

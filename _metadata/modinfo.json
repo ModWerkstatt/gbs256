@@ -1,0 +1,22 @@
+{
+    "name": "DB Gbs 256 Sheet pile wagon",
+    "summary": "Prototype models of two-axle covered freight cars.",
+    "description": "In 1963/64, the Uerdingen wagon factory built a series of 300 two-axle boxcars based on a prototype on behalf of the DB. They are the only DB type that are made of all-steel lightweight construction and are prepared for the installation of an automatic coupling. The floor of the car is made of pine planks, the interior is insulated with a 3 mm thick layer of cork pellets.",
+    "localization" : {
+        "de": {
+            "name": "Gbs 256 Spundwandwagen",
+            "summary": "Prototypenwagen von zweiachsigen gedeckten Güterwagen.",
+            "description": "Die Waggonfabrik Uerdingen baut 1963/64 im Auftrag der DB nach einem Prototyp eine Serie von 300 zweiachsigen gedeckten Güterwagen, die anfangs die Bezeichnung Glmms 64 erhalten, jedoch noch 1964 in Gbs 256 umgezeichnet werden. Als einzige DB-Bauart werden sie in Ganzstahl-Leichtbauweise gefertigt und sind für den Einbau einer automatischen Kupplung vorbereitet. Der Wagenboden besteht aus Kiefernbohlen, der Innenraum ist mit einer 3 mm dicken Korkschrotschicht isoliert."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/gbs256"
+}
