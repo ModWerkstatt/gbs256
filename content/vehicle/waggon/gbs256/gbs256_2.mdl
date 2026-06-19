@@ -103,7 +103,7 @@ return {
 						},
 						{ 
 							materials = { "mat/rumpf.mtl", },
-							mesh = "msh/db_alt_lod0.msh",
+							mesh = "msh/db_neu_lod0.msh",
 							name = "rumpf",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -273,7 +273,7 @@ return {
 						},
 						{ 
 							materials = { "mat/rumpf.mtl", },
-							mesh = "msh/db_alt_lod0.msh",
+							mesh = "msh/db_neu_lod0.msh",
 							name = "rumpf",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -383,15 +383,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1963,
-				yearTo = 1994,
+				yearFrom = 1994,
+				yearTo = 1999,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("gbs256_1_desc"),
-				name = _("gbs256_1_name"),
+				description = _("gbs256_2_desc"),
+				name = _("gbs256_2_name"),
 			},
 			emissions = { 
 				noise = { 
@@ -626,10 +626,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_gbs256.mdl",
 				loadSpeed = 2,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
