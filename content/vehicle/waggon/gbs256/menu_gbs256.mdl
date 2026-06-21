@@ -32,8 +32,8 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2010,
-			yearTo = 0,
+			yearFrom = 1963,
+			yearTo = 1999,
 		},
 		cost = {
 			price = -1,
@@ -71,7 +71,7 @@ return {
 			},
 		},
 		transformatorConfig = {
-			discardLods = { 3, },
+			skipFromLod = 1,
 			transformator = { name = "::/vehicle/train/shared/default_train.trf",
 			},
 		},
