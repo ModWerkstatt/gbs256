@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.570000171661376953125, 1.3761899471282958984375, 4.088369846343994140625, },
-			bbMin = { -6.570000171661376953125, -1.3761899471282958984375, 0, },
+			bbMax = { 6.57, 1.37619, 4.08837, },
+			bbMin = { -6.57, -1.37619, 0, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 6.570000171661376953125, 1.3761899471282958984375, 2.0441849231719970703125, },
+				halfExtents = { 6.57, 1.37619, 2.04418, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.0441849231719970703125, 1, },
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.04418, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -25,13 +25,13 @@ return {
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod0.msh",
 							name = "a2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 						},
 						{ 
 							animations = { 
@@ -125,17 +125,17 @@ return {
 								},
 							},
 							children = {
-								{
+								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 									name = "zugschluss_de_front1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13000011444091796875, -0.933000028133392333984375, 1.37999999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13, -0.933, 1.38, 1, },
 								},
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 									name = "zugschluss_de_front2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13000011444091796875, 0.933000028133392333984375, 1.37999999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.13, 0.933, 1.38, 1, },
 								},
 							},
 							name = "zugschluss_de_front_grp",
@@ -159,17 +159,17 @@ return {
 								},
 							},
 							children = {
-								{
+								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 									name = "zugschluss_de_back1",
-									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13000011444091796875, -0.933000028133392333984375, 1.37999999523162841796875, 1, },
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13, -0.933, 1.38, 1, },
 								},
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 									name = "zugschluss_de_back2",
-									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13000011444091796875, 0.933000028133392333984375, 1.37999999523162841796875, 1, },
+									transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.13, 0.933, 1.38, 1, },
 								},
 							},
 							name = "zugschluss_de_back_grp",
@@ -195,13 +195,13 @@ return {
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod1.msh",
 							name = "a2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 						},
 						{ 
 							animations = { 
@@ -297,13 +297,13 @@ return {
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4, 0, 0.469196, 1, },
 						},
 						{ 
 							materials = { "mat/rumpf.mtl", },
 							mesh = "msh/rad_lod2.msh",
 							name = "a2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.4691959917545318603515625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4, 0, 0.469196, 1, },
 						},
 						{ 
 							animations = { 
@@ -405,11 +405,16 @@ return {
 					speed = -1,
 				},
 			},
+			extent = { 
+				bbMax = { 6.57, 1.37619, 4.08837, },
+				bbMin = { -6.57, -1.37619, 0, },
+			},
 			landVehicle = { 
 				brakeDeceleration = 0.6,
+				curveSpeedScale = 1,
 				engines = { },
-				friction = 0.0199999995529651641845703125,
-				topSpeed = 27.7777690887451171875,
+				friction = 0.02,
+				topSpeed = 27.7778,
 				weightEmpty = 12800,
 				weightMaxPayload = 27200,
 			},
@@ -417,74 +422,8 @@ return {
 				configs = { 
 					bay_0 = { 
 						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 13, 4, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_1 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 13, 4, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_2 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 13, 4, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_3 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 13, 4, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_4 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 11, 3, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_5 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
-							cargoFormats = { "SMALL", },
-							childId = "body",
-							gridSize = { 11, 3, 1, },
-							sizePolicy = "STRETCH_HEIGHT_SCALEY",
-							type = "DISCRETE",
-						},
-					},
-					bay_6 = { 
-						cargoBay = { 
-							bbMax = { 5.5670299530029296875, 1.2000000476837158203125, 3, },
-							bbMin = { -5.5670299530029296875, -1.2000000476837158203125, 1.269999980926513671875, },
+							bbMax = { 5.56703, 1.2, 3, },
+							bbMin = { -5.56703, -1.2, 1.27, },
 							cargoFormats = { "SMALL", },
 							childId = "body",
 							gridSize = { 13, 4, 1, },
@@ -504,10 +443,6 @@ return {
 					axles = { "a1", "a2", },
 					fakeBogies = { },
 				},
-			},
-			extent = { 
-				bbMax = { 6.570000171661376953125, 1.3761899471282958984375, 4.088369846343994140625, },
-				bbMin = { -6.570000171661376953125, -1.3761899471282958984375, 0, },
 			},
 			soundConfig = { 
 				soundSet = { 
@@ -530,95 +465,11 @@ return {
 									capacity = 60,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "GOODS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "bay_0",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "bay_1",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "bay_2",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
-									loadIndicator = "bay_3",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "bay_4",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
-									},
-									loadIndicator = "bay_5",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 60,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
-									},
-									loadIndicator = "bay_6",
 									seats = { },
 								},
 								toHide = { },
@@ -627,10 +478,11 @@ return {
 					},
 				},
 				engineTransportModes = { },
+				entrances = { },
+				filterTags = { "default", },
 				groupFileName = "menu_gbs256.mdl",
 				loadSpeed = 2,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-				filterTags = { "default", },
 			},
 		},
 		version = 2,
